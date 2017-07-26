@@ -5,16 +5,16 @@ class Footer extends Component {
     render() {
         //each of the allergen icons
         const images = [
-            "/images/icons/egg-color.png",
-            "/images/icons/fish-color.png",
-            "/images/icons/milk-color.png",
-            "/images/icons/icons-blackandwhite/peanut-bw.png",
-            "/images/icons/sesame-color.png",
-            "/images/icons/shellfish-color.png",
-            "/images/icons/soy-color.png",
-            "/images/icons/treenut-color.png",
-            "/images/icons/wheat-color.png",
-            "/images/logo.png",
+            "/can-I-eat-thisss/images/icons/egg-color.png",
+            "/can-I-eat-thisss/images/icons/fish-color.png",
+            "/can-I-eat-thisss/images/icons/milk-color.png",
+            "/can-I-eat-thisss/images/icons/icons-blackandwhite/peanut-bw.png",
+            "/can-I-eat-thisss/images/icons/sesame-color.png",
+            "/can-I-eat-thisss/images/icons/shellfish-color.png",
+            "/can-I-eat-thisss/images/icons/soy-color.png",
+            "/can-I-eat-thisss/images/icons/treenut-color.png",
+            "/can-I-eat-thisss/images/icons/wheat-color.png",
+            "/can-I-eat-thisss/images/logo.png",
         ];
         //displays allergen icons on footer for fun!
         return (
