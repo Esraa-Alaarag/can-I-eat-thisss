@@ -159,10 +159,10 @@ class App extends Component {
     <div className="wrapper">
       <Navigation />
         <Switch>
-          <Route path="/" exact component={() => (<Home
+          <Route path="/can-I-eat-thisss" exact component={() => (<Home
                  grabData={this.grabData}
                  />) }/>
-          <Route path="/profile" exact component={() => (<Profile 
+          <Route path="/can-I-eat-thisss/profile" exact component={() => (<Profile 
                  addCheckboxes={this.addCheckboxes}
                  updateCheckboxes={this.updateCheckboxes}
                  userid={this.state.userid}
@@ -171,14 +171,14 @@ class App extends Component {
                  changeState={this.changeState}
                  readAllergies={this.readAllergies}
                  />) }/>
-          <Route path="/result" exact component={() => (<Result 
+          <Route path="/can-I-eat-thisss/result" exact component={() => (<Result 
                  upc={this.state.upc}
                  productName={this.state.productName}
                  ingredientList={this.state.ingredientList}
                  productBrand={this.state.productBrand}
                  ingredientString={this.state.ingredientString}
                  />) }/>
-          <Route path="/history" exact component={() => (<History />) }/>
+          <Route path="/can-I-eat-thisss/history" exact component={() => (<History />) }/>
           <Route path="/*" component={() => (<FourOFour />) }/>
           <Footer />
         </Switch>
