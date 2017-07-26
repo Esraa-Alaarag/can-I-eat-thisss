@@ -17,7 +17,7 @@ class Row extends Component {
     let ans = window.confirm(`Are you sure that you want to delete product number:${key}`)
     console.log(ans)
     if (ans) {
-      let targetURL = `https://can-i-eat-this-api.herokuapp.com/api/allergies/${key}`;
+      let targetURL = `https://can-i-eat-this-api.herokuapp.com/api/information/${key}`;
       axios.delete(targetURL)
         .then((res) => {
           alert("The product was deleted successfully")
